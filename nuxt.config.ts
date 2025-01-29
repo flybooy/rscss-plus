@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       {
-        name: 'Arimo',
+        name: 'Roboto',
         provider: 'google'
       }
     ]

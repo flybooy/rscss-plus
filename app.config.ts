@@ -7,7 +7,7 @@ export default defineAppConfig({
       github: 'flybooy/rscss-plus',
     },
     github: {
-      dir: '.starters/default/content',
+      dir: 'dist',
       branch: 'main',
       repo: 'rscss-plus',
       owner: 'flybooy',

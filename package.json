@@ -4,18 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
-    "lint": "eslint .",
-    "deploy": "gh-pages -d dist"
+    "generate": "NUXT_APP_BASE_URL=/rscss-plus/ nuxi generate",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.15.1",
     "@nuxt/eslint-config": "^0.7.5",
     "@nuxt/fonts": "^0.10.3",
     "eslint": "^9.19.0",
-    "gh-pages": "^6.3.0",
     "nuxt": "^3.15.3"
   }
 }
